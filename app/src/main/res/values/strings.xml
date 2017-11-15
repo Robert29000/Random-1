@@ -2,4 +2,7 @@
     <string name="app_name">Random</string>
     <string name="plus">+</string>
     <string name="minus">-</string>
+    <string name="string">*</string>
+    <string name="multiple">*</string>
+    <string name="dis">/</string>
 </resources>

@@ -28,9 +28,19 @@
         android:text="@string/plus" />
 
     <Button
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="minus"
         android:text="@string/minus" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="multiple"
+        android:text="@string/multiple"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dis"
+        android:text="@string/dis"/>
 
 </LinearLayout>
