@@ -5,4 +5,7 @@
     <string name="string">*</string>
     <string name="multiple">*</string>
     <string name="dis">/</string>
+    <string name="Text">Text view</string>
+    <string name="text_view2">Text view2</string>
+    <string name="out">out</string>
 </resources>

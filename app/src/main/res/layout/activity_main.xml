@@ -6,20 +6,23 @@
     >
 
     <EditText
+        android:text="@string/Text"
         android:id="@+id/first_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
+        android:text="@string/Text"
         android:id="@+id/second_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
+        android:text="@string/out"
         android:id="@+id/result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="" />
+         />
 
     <Button
         android:onClick="plus"

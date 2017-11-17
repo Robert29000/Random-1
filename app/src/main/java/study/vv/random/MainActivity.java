@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Switch;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -11,7 +12,19 @@ public class MainActivity extends AppCompatActivity {
     @Override 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        int i=(int)(Math.random()*(5-1)+1);
+        switch (i) {
+            case 2:setContentView(R.layout.activity_main2);
+                break;
+            case 3:setContentView(R.layout.activity_main3);
+                break;
+            case 4:setContentView(R.layout.activity_main4);
+                break;
+            case 5:setContentView(R.layout.activity_main5);
+                break;
+            default:setContentView(R.layout.activity_main);
+                break;
+        }
     }
     public void plus(View v){
         EditText num1 = (EditText)findViewById(R.id.first_number);

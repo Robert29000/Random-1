@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/first_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Text"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/second_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Text"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/out" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:onClick="plus"
+            android:text="@string/plus" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:onClick="minus"
+            android:text="@string/minus" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:onClick="multiple"
+            android:text="@string/multiple" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:onClick="dis"
+            android:text="@string/dis" />
+    </LinearLayout>
+
+</LinearLayout>
